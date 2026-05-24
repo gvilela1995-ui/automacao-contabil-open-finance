@@ -1,0 +1,14 @@
+services:
+  automacao-contabil:
+    build: .
+    container_name: automacao-contabil
+    restart: unless-stopped
+    ports:
+      - "8877:8765"
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./logs:/app/logs
+    environment:
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8765

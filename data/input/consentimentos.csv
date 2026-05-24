@@ -1,0 +1,3 @@
+client_id;instituicao;tipo_conta;consent_id;status;escopos;criado_em;expira_em;ultima_coleta
+cliente_teste;Banco Exemplo;conta_corrente;consent_mock_001;ativo;contas|saldos|transacoes;2026-05-01;2026-12-31;2026-05-23
+cliente_sem_conexao;;conta_corrente;;pendente;contas|saldos|transacoes;;;

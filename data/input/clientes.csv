@@ -1,0 +1,4 @@
+client_id;nome;cnpj;responsavel;ativo;open_finance_status;consentimento_expira_em;periodicidade;dia_limite
+cliente_teste;Cliente Teste Ltda;00.000.000/0001-00;Gabriel;sim;ativo;2026-12-31;diario;5
+cliente_sem_conexao;Cliente Sem Conexao Ltda;11.111.111/0001-11;Gabriel;sim;pendente_consentimento;;diario;5
+cliente_inativo;Cliente Inativo Ltda;22.222.222/0001-22;Gabriel;nao;inativo;;mensal;10

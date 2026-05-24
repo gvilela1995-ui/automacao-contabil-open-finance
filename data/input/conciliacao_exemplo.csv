@@ -1,0 +1,4 @@
+transaction_id;status;observacao
+tx001;conciliado;Recebimento conferido
+tx002;pendente;Aguardando conferencia
+tx003;pendente;Aguardando comprovante de folha

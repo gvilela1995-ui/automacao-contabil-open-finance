@@ -1,0 +1,13 @@
+{
+  "delimiter": ";",
+  "date_format": "%d/%m/%Y",
+  "decimal_separator": ",",
+  "fields": [
+    "data",
+    "debito",
+    "credito",
+    "valor",
+    "codigo_historico",
+    "historico"
+  ]
+}

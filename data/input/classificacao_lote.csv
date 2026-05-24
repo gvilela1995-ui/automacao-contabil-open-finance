@@ -1,0 +1,4 @@
+﻿palavra_chave;categoria;conta_debito;conta_credito;codigo_historico;historico_padrao
+PIX RECEBIDO;Recebimentos de Clientes;1.1.1.01;3.1.1.01;1001;Recebimento via PIX
+TARIFA;Tarifas Bancarias;4.2.1.05;1.1.1.01;2001;Tarifa bancaria
+FOLHA;Folha de Pagamento;2.1.1.03;1.1.1.01;3001;Pagamento de folha

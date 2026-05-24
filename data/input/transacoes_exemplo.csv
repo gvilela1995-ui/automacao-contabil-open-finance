@@ -1,0 +1,4 @@
+client_id;account_id;date;description;amount;type;transaction_id
+cliente_teste;conta_001;2026-05-01;PIX RECEBIDO CLIENTE ABC;1500.00;credit;tx001
+cliente_teste;conta_001;2026-05-02;TARIFA PACOTE SERVICOS;49.90;debit;tx002
+cliente_teste;conta_001;2026-05-03;PAGAMENTO FOLHA MAIO;3200.00;debit;tx003

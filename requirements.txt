@@ -1,0 +1,1 @@
+# Projeto sem dependências externas obrigatórias.

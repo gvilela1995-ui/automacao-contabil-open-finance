@@ -1,0 +1,16 @@
+{
+  "provider": "csv",
+  "input_csv": "data/input/transacoes_exemplo.csv",
+  "clients_csv": "data/input/clientes.csv",
+  "rules_csv": "config/categorias.csv",
+  "domain_layout": "config/dominio_layout.json",
+  "conciliation_csv": "data/input/conciliacao_exemplo.csv",
+  "schedules_csv": "config/agendamentos.csv",
+  "stages_csv": "config/etapas.csv",
+  "times_csv": "data/input/tempos_cliente.csv",
+  "errors_csv": "data/input/erros_coleta.csv",
+  "receipts_dir": "data/comprovantes",
+  "output_dir": "data/output",
+  "log_dir": "logs",
+  "run_hour": "07:00"
+}

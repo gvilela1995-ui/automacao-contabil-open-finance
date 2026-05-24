@@ -1,0 +1,8 @@
+codigo;nome;ordem;descricao
+aguardando_consentimento;Aguardando Open Finance;10;Cliente sem consentimento ativo para coleta automatica
+importar_extrato;Importar Extrato;20;Sistema precisa puxar extrato/movimentacoes
+erro_coleta;Erro na Coleta;30;Falha tecnica ao puxar dados do provedor
+classificar;Classificar Lancamentos;40;Existem lancamentos sem codigo contabil
+conciliar;Conciliar;50;Existem lancamentos pendentes de conciliacao
+pronto_dominio;Pronto para Dominio;60;TXT e Excel podem ser liberados para importacao
+importado_dominio;Importado no Dominio;70;Arquivo ja foi importado no sistema contabil

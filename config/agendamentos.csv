@@ -1,0 +1,5 @@
+job_id;descricao;frequencia;proxima_execucao;ativo
+coleta_open_finance_diaria;Puxar extratos e movimentacoes Open Finance;diaria;2026-05-24 07:00;sim
+categorizacao_diaria;Categorizar lancamentos pendentes;diaria;2026-05-24 07:30;sim
+exportacao_dominio_mensal;Gerar TXT Dominio mensal;mensal;2026-06-01 08:00;sim
+cobranca_consentimentos;Cobrar consentimentos vencidos ou pendentes;semanal;2026-05-25 09:00;sim

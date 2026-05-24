@@ -1,0 +1,7 @@
+﻿prioridade;palavra_chave;categoria;conta_debito;conta_credito;codigo_historico;historico_padrao;exige_comprovante
+10;PIX RECEBIDO;Recebimentos de Clientes;1.1.1.01;3.1.1.01;1001;Recebimento via PIX;nao
+20;TARIFA;Tarifas Bancarias;4.2.1.05;1.1.1.01;2001;Tarifa bancaria;nao
+30;IOF;Impostos e Encargos Financeiros;4.2.1.06;1.1.1.01;2002;IOF sobre operacao bancaria;nao
+40;FOLHA;Folha de Pagamento;2.1.1.03;1.1.1.01;3001;Pagamento de folha;nao
+50;ALUGUEL;Aluguel;4.1.1.04;1.1.1.01;4001;Pagamento de aluguel;sim
+999;;A Classificar;9.9.9.99;9.9.9.99;9999;Lancamento bancario a classificar;nao
