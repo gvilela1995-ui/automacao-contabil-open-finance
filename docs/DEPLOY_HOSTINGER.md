@@ -33,7 +33,9 @@ Sempre que subir mudança para o GitHub:
 ```bash
 cd /opt/gabriel-automacao-contabil-open-finance
 git pull
-docker compose up -d --build
+docker build -t automacao-contabil-open-finance:latest .
+docker rm -f automacao-contabil || true
+docker run -d --name automacao-contabil --restart unless-stopped -p 8877:8765 -v "$PWD/data:/app/data" -v "$PWD/config:/app/config" -v "$PWD/logs:/app/logs" -e APP_HOST=0.0.0.0 -e APP_PORT=8765 automacao-contabil-open-finance:latest
 ```
 
 ## Isolamento

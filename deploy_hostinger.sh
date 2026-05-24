@@ -17,7 +17,7 @@ fi
 
 if ! command -v docker >/dev/null 2>&1; then
   apt-get update
-  apt-get install -y docker.io docker-compose-plugin
+  apt-get install -y docker.io
   systemctl enable --now docker
 fi
 
@@ -29,6 +29,17 @@ else
 fi
 
 cd "$APP_DIR"
-docker compose up -d --build
+docker build -t automacao-contabil-open-finance:latest .
+docker rm -f automacao-contabil >/dev/null 2>&1 || true
+docker run -d \
+  --name automacao-contabil \
+  --restart unless-stopped \
+  -p 8877:8765 \
+  -v "$APP_DIR/data:/app/data" \
+  -v "$APP_DIR/config:/app/config" \
+  -v "$APP_DIR/logs:/app/logs" \
+  -e APP_HOST=0.0.0.0 \
+  -e APP_PORT=8765 \
+  automacao-contabil-open-finance:latest
 
 echo "Sistema publicado em: http://31.97.86.86:8877"
